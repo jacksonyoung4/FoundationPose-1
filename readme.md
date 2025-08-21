@@ -22,7 +22,10 @@ Deploy and connect to terminal.
 ``` bash
 git clone https://github.com/jacksonyoung4/Jackson-FoundationPose.git
 ```
--	Enter FoundationPose directory: cd FoundationPose
+-	Enter FoundationPose directory: 
+``` bash
+cd FoundationPose
+```
 -	Download weights:
 ``` bash
 pip install gdown
@@ -32,4 +35,7 @@ gdown --folder https://drive.google.com/drive/folders/1DFezOAD0oD1BblsXVxqDsl8fj
 ``` bash
 mv no_diffusion weights
 ```
--	Run for first time launching container: bash build_all.sh
+-	Run for first time launching container: 
+``` bash
+bash build_all.sh
+```
